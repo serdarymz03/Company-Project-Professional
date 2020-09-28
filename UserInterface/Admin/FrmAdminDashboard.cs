@@ -91,5 +91,11 @@ namespace UserInterface.Admin
             frmJobDetailProcess.employerNo = personNo;
             frmJobDetailProcess.ShowDialog();
         }
+
+        private void yedeklemeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmBackUp frmBackUp = new FrmBackUp();
+            frmBackUp.ShowDialog();
+        }
     }
 }

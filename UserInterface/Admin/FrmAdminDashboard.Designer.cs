@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.LblName = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -50,6 +50,7 @@
             this.departmanlarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.işlerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.işDetaylarıToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.yedeklemeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DtgJobs)).BeginInit();
@@ -120,8 +121,8 @@
             // 
             this.DtgJobs.AllowUserToAddRows = false;
             this.DtgJobs.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.DtgJobs.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.DtgJobs.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle2;
             this.DtgJobs.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.DtgJobs.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DtgJobs.Cursor = System.Windows.Forms.Cursors.PanWest;
@@ -230,7 +231,8 @@
             this.personellerToolStripMenuItem,
             this.departmanlarToolStripMenuItem,
             this.işlerToolStripMenuItem,
-            this.işDetaylarıToolStripMenuItem});
+            this.işDetaylarıToolStripMenuItem,
+            this.yedeklemeToolStripMenuItem});
             this.dosyaToolStripMenuItem.Name = "dosyaToolStripMenuItem";
             this.dosyaToolStripMenuItem.Size = new System.Drawing.Size(51, 20);
             this.dosyaToolStripMenuItem.Text = "Dosya";
@@ -262,6 +264,13 @@
             this.işDetaylarıToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.işDetaylarıToolStripMenuItem.Text = "İş Detayları";
             this.işDetaylarıToolStripMenuItem.Click += new System.EventHandler(this.işDetaylarıToolStripMenuItem_Click);
+            // 
+            // yedeklemeToolStripMenuItem
+            // 
+            this.yedeklemeToolStripMenuItem.Name = "yedeklemeToolStripMenuItem";
+            this.yedeklemeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.yedeklemeToolStripMenuItem.Text = "Yedekleme";
+            this.yedeklemeToolStripMenuItem.Click += new System.EventHandler(this.yedeklemeToolStripMenuItem_Click);
             // 
             // FrmAdminDashboard
             // 
@@ -318,5 +327,6 @@
         private System.Windows.Forms.ToolStripMenuItem departmanlarToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem işlerToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem işDetaylarıToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem yedeklemeToolStripMenuItem;
     }
 }

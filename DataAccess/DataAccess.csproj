@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="Abstract\IRepository.cs" />
     <Compile Include="Abstract\SqlService.cs" />
+    <Compile Include="AdminProcess.cs" />
     <Compile Include="Concrete\AuthDal.cs" />
     <Compile Include="Concrete\DepartmentDal.cs" />
     <Compile Include="Concrete\Helper.cs" />
